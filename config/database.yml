@@ -24,6 +24,8 @@ default: &default
 development:
   <<: *default
   database: umz_development
+  username: umz_development
+  password: umz_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -58,6 +60,8 @@ development:
 test:
   <<: *default
   database: umz_test
+  username: umz_test
+  password: umz_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +84,6 @@ test:
 #
 production:
   <<: *default
-  database: umz_production
-  username: umz
-  password: <%= ENV['UMZ_DATABASE_PASSWORD'] %>
+  # database: umz_production
+  username: umz_production
+  # password: <%= ENV['UMZ_DATABASE_PASSWORD'] %>
