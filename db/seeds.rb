@@ -11,4 +11,10 @@ Account.create(first_name: 'Jose', last_name: 'Pena', department: 'College of Co
 
 Account.create(first_name: 'Kenneth', last_name: 'Cuarteros', department: 'College of Engineering', email: 'kenneth@cuarteros.com', program: 'BS-Electrical Engineering')
 
-Account.create(first_name: 'Armored', last_name: 'Clavio', department: 'School of Business and Management', email: 'armored@clavio.com', program: 'BS-Accountancy')
+Account.create(first_name: 'Gilbert', last_name: 'Abellanosa', department: 'College of Arts and Sciences', email: 'gilbert@abellanosa.com', program: 'BS-Biology')
+
+Account.create(first_name: 'Paul', last_name: 'Torres', department: 'College of Nursing', email: 'paul@torres.com', program: 'BS-Nursing')
+
+Account.create(first_name: 'Kent', last_name: 'Bigno', department: 'College of Engineering', email: 'kent@bigno.com', program: 'BS-Civil Engineering')
+
+Account.create(first_name: 'Jawee', last_name: 'Fabria', department: 'College of Agriculture', email: 'jawee@fabria.com', program: 'BS-Agriculture')
