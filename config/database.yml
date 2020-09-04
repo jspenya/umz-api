@@ -84,6 +84,7 @@ test:
 #
 production:
   <<: *default
+  database: <%= ENV['DATABASE_URL'] %>
   # database: umz_production
-  username: umz_production
+  # username: umz_production
   # password: <%= ENV['UMZ_DATABASE_PASSWORD'] %>
