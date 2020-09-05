@@ -18,3 +18,5 @@ Account.create(first_name: 'Paul', last_name: 'Torres', department: 'College of 
 Account.create(first_name: 'Kent', last_name: 'Bigno', department: 'College of Engineering', email: 'kent@bigno.com', program: 'BS-Civil Engineering')
 
 Account.create(first_name: 'Jawee', last_name: 'Fabria', department: 'College of Agriculture', email: 'jawee@fabria.com', program: 'BS-Agriculture')
+
+Account.create(first_name: 'Jessie', last_name: 'Lagrosas', department: 'College of Computer Studies', email: 'jessie@lagrosas.com', program: 'Computer Science')
